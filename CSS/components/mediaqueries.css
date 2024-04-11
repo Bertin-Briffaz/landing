@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+    .site-header, .social-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        height: 80px;
+        margin-bottom: 10px; /* Espace entre le logo et la navigation sociale */
+    }
+
+    .social-nav a {
+        margin: 5px;
+    }
+
+    .banner {
+        height: 250px; /* Réduction de la hauteur de la bannière */
+        margin: 10px;
+    }
+
+    .banner-content, .button {
+        padding: 10px;
+        font-size: 0.8em; /* Taille de police réduite pour les éléments de la bannière */
+    }
+
+    .carousel-inner {
+        flex-direction: column;
+        padding-left: 0; /* Suppression du padding gauche */
+    }
+
+    .card, .card2 {
+        width: 100%; /* Les cartes prennent toute la largeur disponible */
+        margin-right: 0; /* Suppression de la marge à droite */
+    }
+
+    .interlign-text {
+        padding-left: 20px; /* Padding réduit */
+        font-size: 20px; /* Taille de police réduite */
+    }
+
+    .carousel-logo, .socialnav-image, .card2-image {
+        height: 30px; /* Réduction de la taille des images dans les logos */
+    }
+
+    .prevSlide, .nextSlide {
+        display: none; /* Suppression des boutons de navigation du carousel pour simplifier */
+    }
+}
