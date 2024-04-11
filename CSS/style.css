@@ -9,6 +9,7 @@
 @import url("components/carousel-logo.css");
 @import url("components/interlign-text.css");
 @import url("components/site-header.css");
+@import url("components/questionnaire.css");
 
 body, h1, h2, button { margin: 0; font-family: 'Roboto', sans-serif; }
 body {
