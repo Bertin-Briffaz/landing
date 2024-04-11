@@ -46,3 +46,26 @@
         display: none; /* Suppression des boutons de navigation du carousel pour simplifier */
     }
 }
+
+@media (min-width: 1024px) {
+    .carousel {
+        padding: 0 40px; /* Ajout d'un padding aux côtés du carrousel */
+    }
+
+    .prevSlide, .nextSlide {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparence pour moins d'obstruction visuelle */
+    }
+
+    .prevSlide {
+        left: 10px; /* Positionnement à gauche */
+    }
+
+    .nextSlide {
+        right: 10px; /* Positionnement à droite */
+    }
+
+    .carousel-inner {
+        margin: 0 auto; /* Centrage du contenu du carrousel */
+    }
+}
