@@ -1,0 +1,36 @@
+.card2 {
+  width: 315px;
+  height: 240px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5%;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 30px; 
+  flex: 0 0 auto;
+  transition: transform 0.3s ease-in-out;
+  position: relative; 
+  overflow: hidden; 
+  }
+.card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  .card2-image {
+    width: 50px; 
+    height: auto;
+    border-radius: 5%;
+    position: absolute;
+    top: 22px;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+  .card2-text {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

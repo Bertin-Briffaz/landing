@@ -1,0 +1,28 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(240, 240, 240); 
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+}
+
+.social-nav {
+  display: flex;
+  align-items: center;
+}
+
+.social-nav a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.socialnav-image, .social-nav img { 
+  height: 50px;
+  width: auto; 
+  object-fit: contain; 
+}
